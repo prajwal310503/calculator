@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        button{
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <input id="num1" type="number" placeholder="Enter 1st Num" />
+    <input id="num2" type="number" placeholder="Enter 2nd Num" />
+    <div>
+      <button onclick="Calculate('+')">Add</button
+      ><button onclick="Calculate('-')">Sub</button
+      ><button onclick="Calculate('*')">Mul</button
+      ><button onclick="Calculate('/')">Div</button>
+    </div>
+    <h1 id="answer"></h1>
+  </body>
+  <script src="calculator.js"></script>
+</html>
